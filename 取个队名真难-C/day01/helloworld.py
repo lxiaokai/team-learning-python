@@ -5,10 +5,10 @@ import random
 
 # 程序主入口
 if __name__ == '__main__':
-	# 打印
-	print('Hello World!')
+    # 打印
+    print('Hello World!')
 
-	# 取4个随机数
+    # 取4个随机数
     i = 0
     rand_list = []
     while i < 4:
