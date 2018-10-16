@@ -33,6 +33,11 @@ https://juejin.im/pin/5bc400105188250d2520d3ef
 - 5.input()捕获键盘输入，额外了解一下！！
 
 目的：主要是学习一下上面的一些基础知识，要是已经熟悉了的话，可以跳过这个
+
+参考资料：
+
+[基本语法](https://pythoncaff.com/docs/byte-of-python/2018/basics/57#ddc7d2)
+[运算符与表达式](https://pythoncaff.com/docs/byte-of-python/2018/op_exp/58)
 #### 练习： 做一个加减乘除的计算器（尽量用到上面的所有知识）
 
 
