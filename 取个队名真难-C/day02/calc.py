@@ -28,7 +28,10 @@ if __name__ == '__main__':
         print('乘法运算，结果是：' + str(result))
     elif operate_type == '4':
         # 4除法
-        result = number_one / number_two
-        print('除法运算，结果是：' + str(result))
+        if number_two == 0:
+            print('第二个数即除数不能为0')
+        else:
+            result = number_one / number_two
+            print('除法运算，结果是：' + str(result))
     else:
         print('算法类型错误')
