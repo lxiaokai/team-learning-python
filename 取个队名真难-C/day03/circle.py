@@ -11,16 +11,19 @@ if __name__ == '__main__':
     print('加法运算：' + number_one + ' + ' + number_two + ' = ' + str(sum_value))
     # - 减法的使用
     diff_value = float(number_one) - float(number_two)
-    print('减法运算：' + number_one + ' + ' + number_two + ' = ' + str(diff_value))
+    print('减法运算：' + number_one + ' - ' + number_two + ' = ' + str(diff_value))
     # * 乘法的使用
     mul_val = float(number_one) * float(number_two)
-    print('乘法运算：' + number_one + ' + ' + number_two + ' = ' + str(mul_val))
+    print('乘法运算：' + number_one + ' * ' + number_two + ' = ' + str(mul_val))
     # / 除法的使用
     if number_two == '0':
         print('除法运算，除数不能为0')
     else:
         div_value = float(number_one) / float(number_two)
-        print('除法运算：' + number_one + ' + ' + number_two + ' = ' + str(div_value))
+        print('除法运算：' + number_one + ' / ' + number_two + ' = ' + str(div_value))
+    # % 取模的使用
+    after_val = float(number_one) % float(number_two)
+    print('取模运算：' + number_one + ' % ' + number_two + ' = ' + str(after_val))
 
     # π的值
     pai = 3.14
