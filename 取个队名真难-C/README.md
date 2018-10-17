@@ -2,18 +2,22 @@
 
 ### Task1 date: 2018-10-15
 
-- 打印“Hello World!”
-- 从0-499取四个不重复的随机数
+- 打印“Hello World!”（day01/helloworld.py）
+- 从0-499取四个不重复的随机数（day01/helloworld.py）
 
 ### Task2 date: 2018-10-16
 
-- 一次性赋值多个变量，并打印
-- 简易加减乘除计算器
+- 一次性赋值多个变量，并打印（day02/ide.py）
+- 简易加减乘除计算器（day02/calc.py）
 
-### Task date: 2018-10-17
+### Task3 date: 2018-10-17
 
-- 输入输出，打印加减乘除的结果值
-- 输入圆长，计算输出圆周长和圆面积
+- 输入输出，打印加减乘除的结果值（day03/circle.py）
+- 输入圆长，计算输出圆周长和圆面积（day03/circle.py）
+- 数据类型基础语法使用（day03/data_type.py）
+- 字符串类型的基础使用（day03/str.py）
+- 列表的基础使用（day03/list.py）
+- 元组的基础使用（day03/tuple.py）
 
 ### Team-Learning-Python
 
