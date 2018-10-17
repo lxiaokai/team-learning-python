@@ -43,7 +43,7 @@ https://juejin.im/pin/5bc55064f265da6aedfc798a
 [运算符与表达式](https://pythoncaff.com/docs/byte-of-python/2018/op_exp/58)
 #### 练习： 做一个加减乘除的计算器（尽量用到上面的所有知识）
 
-##  Task2 time: 2018年10月17日
+##  Task3 time: 2018年10月17日
 【战胜拖延症，组团学 Python】第一课：
 1. 掌握 Python 变量，输入输出，+-*/%运算
 2. 编写 Python 程序，此程序可以从命令行接收一个数字输入，并输出以该数字为半径的圆的周长和面积。
