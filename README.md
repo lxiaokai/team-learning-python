@@ -1,3 +1,5 @@
+[toc]
+
 # team-learning-python
 这个是各位大表锅大表姐们要求建立~我是无辜的
 
@@ -66,4 +68,29 @@ https://juejin.im/pin/5bc55064f265da6aedfc798a
 目的：掌握上面知识点，不要求全部都很熟练，最起码知道有这么一回事。
 
 #### 练习： 上面的知识点都举例操作一遍并上传代码。
+
+## Task4 time: 2018年10月18日
+
+【战胜拖延症，组团学 Python】第二课
+1. 掌握 Python 的 if-else 分支结构以及 while for 循环（包括 continue 和 break)
+2. 编写一个程序，该程序可以从命令行接收一个数字输入并判断该数字是否为素数。
+
+阅读链接中的 Python 基础部分，配合搜索可以完成此任务。
+
+⛽️你已经超过50% 的人了
+
+### 学习目标：
+1. 循环（for、while）、条件判断（if）的使用（先看完这个，再了解一下[素数](https://baike.baidu.com/item/%E8%B4%A8%E6%95%B0/263515?fromtitle=%E7%B4%A0%E6%95%B0&fromid=115069&fr=aladdin)是什么，就可以做打卡任务了）
+2. 字典定义
+3. 定义字典的方法
+4. 直接读、改字典的value值
+5. 字典的方法熟悉练习下：keys()、value()、get()、items()、copy()、clear()、pop()、update()、fromkeys()等
+6. 判断一个key是否在字典里的方法
+7. set数据类型也看一下
+8. 记得每天打卡 - [https://juejin.im/pin/5bc7e7bbf265da6aedfc8759](https://juejin.im/pin/5bc7e7bbf265da6aedfc8759)
+
+### 练习：
+- 上面的知识点都举例操作一遍并上传代码
+- 使用for … in ……循环访问字典的key以及value（单独打印k、单独打印value、同时打印key和value）
+
 ***************************************
