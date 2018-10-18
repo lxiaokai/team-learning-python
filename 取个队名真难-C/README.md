@@ -19,6 +19,10 @@
 - 列表的基础使用（day03/list.py）
 - 元组的基础使用（day03/tuple.py）
 
+### Task4 date: 2018-10-18
+
+- 输入一个数，判断是否是素数（day04/prime.py）
+
 ### Team-Learning-Python
 
 ![team_img](https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80)

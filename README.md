@@ -1,5 +1,3 @@
-[toc]
-
 # team-learning-python
 这个是各位大表锅大表姐们要求建立~我是无辜的
 
