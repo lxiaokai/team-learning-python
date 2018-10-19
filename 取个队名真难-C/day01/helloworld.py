@@ -4,7 +4,7 @@
 """
 Hello World
 author: gxcuizy
-time: 2018-10-15
+date: 2018-10-15
 """
 
 import random

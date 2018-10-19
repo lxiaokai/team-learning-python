@@ -4,7 +4,7 @@
 """
 循环字典的key和value
 author: gxcuizy
-time: 2018-10-18
+date: 2018-10-18
 """
 
 # 程序主入口
