@@ -110,6 +110,6 @@ https://juejin.im/pin/5bc55064f265da6aedfc798a
 2. 练习要求必须使用函数
 
 ##### 备注：对学习目标不是很理解的,可以群里交流~祝大家周末愉快
-<img src = "https://ws4.sinaimg.cn/large/006tNbRwgy1fwdb4lzq07j3073073glo.jpg" height=110>
-<img src = "https://ws3.sinaimg.cn/large/006tNbRwgy1fwdb4oa005j308c08cmx5.jpg" height=110>
+<img src = "https://ws4.sinaimg.cn/large/006tNbRwgy1fwdb4lzq07j3073073glo.jpg" height=110> <img src = "https://ws3.sinaimg.cn/large/006tNbRwgy1fwdb4oa005j308c08cmx5.jpg" height=110>
+
 ***************************************
