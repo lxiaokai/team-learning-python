@@ -22,6 +22,13 @@
 ### Task4 date: 2018-10-18
 
 - 输入一个数，判断是否是素数（day04/prime.py）
+- 字典的基本练习（day04/dict.py）
+- if和while的逻辑使用练习（day04/logic.py）
+- 循环一个字典的key和value（day04/for_dict.py）
+
+### Task5 date: 2018-10-19
+
+- 函数式编程判断素数以及字典的使用（day05/prime_fun.py）
 
 ### Team-Learning-Python
 
