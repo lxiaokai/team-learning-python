@@ -30,6 +30,8 @@
 
 - 函数式编程判断素数（day05/prime.py）
 - 函数式编程判断素数以及字典的使用（day05/prime_fun.py）
+- 基础函数的学习（day05/fun.py）
+- 基础异常处理（day05/error.py）
 
 ### Team-Learning-Python
 
