@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+输入圆长，计算圆周长和面积
+author: gxcuizy
+time: 2018-10-17
+"""
+
 # 程序主入口
 if __name__ == '__main__':
     # 运算符的用法

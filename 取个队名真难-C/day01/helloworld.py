@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+Hello World
+author: gxcuizy
+time: 2018-10-15
+"""
+
 import random
 
 # 程序主入口

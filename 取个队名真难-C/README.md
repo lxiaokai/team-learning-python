@@ -28,6 +28,7 @@
 
 ### Task5 date: 2018-10-19
 
+- 函数式编程判断素数（day05/prime.py）
 - 函数式编程判断素数以及字典的使用（day05/prime_fun.py）
 
 ### Team-Learning-Python

@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+简易计算器的实现
+author: gxcuizy
+time: 2018-10-16
+"""
 
 # 程序主入口
 if __name__ == '__main__':
