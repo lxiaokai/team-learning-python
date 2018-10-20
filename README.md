@@ -57,7 +57,7 @@ https://juejin.im/pin/5bc55064f265da6aedfc798a
 需要掌握：
 
 1. 数值类型（整型、长整型、浮点型、复数型）（这个，昨天应该有了解过了）
-2. 字符串类型 
+2. 字符串类型
 3. 元组
 4. 列表（增、删、改、查及一些方法）
 5. 记得每天打卡~
@@ -113,5 +113,13 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 
 ##### 备注：对学习目标不是很理解的,可以群里交流~祝大家周末愉快
 <img src = "https://ws4.sinaimg.cn/large/006tNbRwgy1fwdb4lzq07j3073073glo.jpg" height=110> <img src = "https://ws3.sinaimg.cn/large/006tNbRwgy1fwdb4oa005j308c08cmx5.jpg" height=110>
+
+## Task6 time: 2018年10月20日
+【战胜拖延症，组团学 Python】第四课：
+1. 掌握链接中 Python 教程的高级特性
+2. 利用生成器生成斐波那契数列
+3. 打卡链接：[https://juejin.im/pin/5bcaeb5a6fb9a04d63f32ea9](https://juejin.im/pin/5bcaeb5a6fb9a04d63f32ea9)
+
+⛽️你已经超过了82%的人
 
 ***************************************
