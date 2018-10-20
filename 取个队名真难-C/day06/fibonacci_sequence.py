@@ -27,8 +27,9 @@ def get_sequence(num):
 
 # 程序主入口
 if __name__ == '__main__':
+    number = int(input('请输入一个数获取斐波拉契数列：'))
     # 获取数列
-    number_list = get_sequence(8)
+    number_list = get_sequence(number)
     # 打印数列
     for value in number_list:
         print(value)
