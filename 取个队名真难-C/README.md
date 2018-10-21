@@ -41,9 +41,9 @@
 
 ### Task7 date: 2018-10-21
 
-- Python知识点回忆总结（day06/knowledge.md）
-- os模块的基础使用和练习（day06/os_use.py）
-- Requests获取掘金沸点数据练习（day06/juejin_poins.py）
+- Python知识点回忆总结（day07/knowledge.md）
+- os模块的基础使用和练习（day07/os_use.py）
+- Requests获取掘金沸点数据练习（day07/juejin_poins.py）
 
 ### Team-Learning-Python
 
