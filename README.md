@@ -125,7 +125,7 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 ## Task7 ime: 2018年10月21日
 【战胜拖延症，组团学 Python】第五课：
 1. 回顾前面所学的内容
-2.在无参考资料的前提下，尽量多的写下你能回忆起的 Python 知识。
+2. 在无参考资料的前提下，尽量多的写下你能回忆起的 Python 知识。
 3. 打卡链接：[https://juejin.im/pin/5bcbf1315188252e68e1f826](https://juejin.im/pin/5bcbf1315188252e68e1f826)
 
 特殊的打卡方式：将你回忆的知识发布在沸点，评论留下你的沸点链接。
