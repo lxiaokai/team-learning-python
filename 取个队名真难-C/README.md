@@ -45,6 +45,10 @@
 - os模块的基础使用和练习（day07/os_use.py）
 - Requests获取掘金沸点数据练习（day07/juejin_poins.py）
 
+### Task8 date: 2018-10-22
+
+- 高阶函数的练习和使用（day08/fun_to_code.py）
+
 ### Team-Learning-Python
 
 ![team_img](https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80)
