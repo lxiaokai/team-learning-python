@@ -39,20 +39,12 @@ if __name__ == '__main__':
         for i in range(0, len(dataList)):
             # 用户昵称
             username = dataList[i]['user']['username']
-            print('用户昵称' + username)
-
             # 用户头像
             avatarLarge = dataList[i]['user']['avatarLarge']
-            print(avatarLarge)
-
             # 内容
             content = dataList[i]['content']
-            print(content)
-
             # 内容图片
             pictures = dataList[i]['pictures']
-            print(pictures)
-
             # 创建一个文件夹来装图片
             # 判断是否创建文件夹
             dirPath = os.getcwd() + '/' + username
@@ -60,7 +52,6 @@ if __name__ == '__main__':
             if os.path.exists(os.getcwd() + '/' + username):
 
                 # 开始写文件
-                # urlretrieve(avatarLarge, dirPath + '/avatarLarge.png')
                 print('开始下载头像~')
                 r = requests.get(avatarLarge)
                 with open(dirPath + '/avatarLarge.jpg', 'wb') as f:
