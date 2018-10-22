@@ -48,6 +48,7 @@
 ### Task8 date: 2018-10-22
 
 - 高阶函数的练习和使用（day08/fun_to_code.py）
+- 打扰了，利用装饰器给判断函数加个[有趣的]功能（day08/decorator.py）
 
 ### Team-Learning-Python
 
