@@ -90,21 +90,22 @@ def save_picture(object_id, pictures):
         url_data = parse.urlparse(url=picture_url)
         # 图片请求参数
         url_param = parse.parse_qs(url_data.query)
-        # 图片扩展名
-        img_ext = url_param['f'][0]
-        # 图片路径
-        url_path = url_data.path
-        # 图片标识ID
-        img_id = os.path.split(url_path)[1]
-        # 图片名称
-        img_name = img_id + '.' + img_ext
-        img_path = os.path.join(path, img_name)
-        print('开始下载图片:' + img_path)
-        with open(img_path, 'wb') as img:
-            # 下载图片
-            img_re = requests.get(picture_url)
-            img.write(img_re.content)
-            print('下载图片完毕！')
+        if url_param:
+            # 图片扩展名
+            img_ext = url_param['f'][0]
+            # 图片路径
+            url_path = url_data.path
+            # 图片标识ID
+            img_id = os.path.split(url_path)[1]
+            # 图片名称
+            img_name = img_id + '.' + img_ext
+            img_path = os.path.join(path, img_name)
+            print('开始下载图片:' + img_path)
+            with open(img_path, 'wb') as img:
+                # 下载图片
+                img_re = requests.get(picture_url)
+                img.write(img_re.content)
+                print('下载图片完毕！')
 
 
 # 程序主入口
