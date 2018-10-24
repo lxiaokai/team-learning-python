@@ -13,7 +13,7 @@ def recursion_dir(path):
     for files in os.listdir(path):
         print(os.path.join(path, files))
         # 文件 继续递归
-        if os.path.isdir(files):
+        if os.path.isdir(os.path.join(path, files)):
             recursion_dir(os.path.join(path, files))
 
 def walk_dirs():
@@ -36,6 +36,6 @@ def walk_dirs():
 # 程序主入口
 if __name__ == '__main__':
     # 遍历的目录
-    # walk_dirs()
+    walk_dirs()
     print('-------------')
     recursion_dir('language')
