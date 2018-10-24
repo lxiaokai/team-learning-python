@@ -187,3 +187,27 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
     - 使用os.walk()直接遍历文件和目录（优先这个方法）
     - 自己编写递归函数去遍历文件和目录（有兴趣的可以完成，不做统一要求）
 
+## Task10 time:2018年10月24日
+
+### 学习目标：
+1. Requests的了解和基本使用
+    - [廖雪峰Requests教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/0015109021115795adfc5c8629f4f98985063b5a7e3ff87000)
+    - [Requests官方中文文档](http://docs.python-requests.org/zh_CN/latest/user/quickstart.html)
+2. 文件读写的基本操作
+    - [廖雪峰文件读写教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431917715991ef1ebc19d15a4afdace1169a464eecc2000)
+    - [菜鸟文件读写教程-查看更详细内容](http://www.runoob.com/python3/python3-file-methods.html)
+3. 掘金日常打卡
+
+### 练习：
+
+今天的练习就一个，就是看完学习目标后，利用Requests模块和文件读写来存储[掘金沸点](https://juejin.im/pins)的请求url链接里的content内容，用追加的方式，写入到一个文件中
+
+练习实现思路提示：
+1. 沸点数据的请求链接，可以通过F12的network查找
+2. 通过Requests的get方法请求沸点url链接
+3. 然后用json()方法获取请求到的的内容，是一个字典类型的数据
+4. 接着就是for……in……循环拿到的字典中的key为list的列表数据就好了
+5. 写文件的的方式：
+    1. 用追加模式在for循环里打开一个文件对象，然后持续写入
+    2. 在for循环外用写文件的模式打开一个文件对象，然后持续写入
+    3. 写完文件最后都要记得关闭文件对象，或者使用with……的语法
