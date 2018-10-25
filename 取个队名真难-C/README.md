@@ -63,6 +63,10 @@
 ### Task11 date: 2018-10-25
 
 - pip的基础使用（day11/pip.md）
+- pickle序列化字典数据的使用（day11/pickle_use.py）
+- json序列化字典数据的使用（day11/json_use.py）
+- openpyxl模块操作Excel表格的读写（day11/excel_use.py）
+- 下载视频、音乐、图片文件（day11/download.py）
 
 ### Team-Learning-Python
 
