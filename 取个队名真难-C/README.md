@@ -60,6 +60,10 @@
 
 - 利用Requests抓取沸点内容存到txt文件（day10/poins_content.py）
 
+### Task11 date: 2018-10-25
+
+- pip的基础使用（day11/pip.md）
+
 ### Team-Learning-Python
 
 ![team_img](https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80)
