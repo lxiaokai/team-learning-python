@@ -52,7 +52,7 @@ pip show --files [module_name]
 ### 检查哪些模块需要更新
 
 ```
-pip list \--outdated
+pip list --outdated
 ```
 
 ### 升级指定的模块
@@ -85,4 +85,4 @@ Linux或者Mac OS的用户执行下面的命令
 
 ```
 pip install -U pip
-``
+```
