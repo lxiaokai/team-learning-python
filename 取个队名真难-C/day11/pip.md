@@ -19,6 +19,18 @@ sudo apt-get install python-pip
 
 更多安装方法请安装文档：[https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip-setuptools-wheel-with-linux-package-managers](https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip-setuptools-wheel-with-linux-package-managers)
 
+### 查看pip版本
+
+简写方式
+```
+pip -V
+```
+
+完整命令方式
+```
+pip --version
+```
+
 ### 利用pip安装模块
 
 ```
@@ -34,13 +46,13 @@ pip list
 如果需要搜索指定的模块的话，可以使用下面的命令
 
 ```
-pip list | grep requests
+pip list | grep [module_name]
 ```
 
 还可以使用下面的方法
 
 ```
-pip search [model_name]
+pip search [module_name]
 ```
 
 ### 利用pip查看已安装的某个模块的详细信息
