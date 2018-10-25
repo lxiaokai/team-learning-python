@@ -219,9 +219,9 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
     - JSON字符串存储（用到的模块：**json**；进行读、写操作）
     - Excel表格存储（用到的模块：**pandas或openpyxl**；读、写操作）
     - CSV文件存储（用到的模块：**csv或pandas**；读、写操作）
-    - Image图片存储（写操作）
-    - MP4视频存储（写操作）
-    - MP3音频存储（写操作）
+    - Image图片存储（写操作） `图片参考URL   http://img.shujuren.org/pictures/GB/57ff13a89b3b8.png`
+    - MP4视频存储（写操作） `视频参考URL   http://www.runoob.com/try/demo_source/movie.mp4`
+    - MP3音频存储（写操作） `音频参考URL    https://m10.music.126.net/20181025110650/cf49d099633c1fdd15bf8509386ac0fe/ymusic/e627/765b/7bbd/63198cca3f00a94bb0952dc1f0d507e7.mp3`
 2. 掘金日常打卡
 
 ### 练习：
