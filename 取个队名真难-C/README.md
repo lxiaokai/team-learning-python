@@ -67,6 +67,7 @@
 - json序列化字典数据的使用（day11/json_use.py）
 - openpyxl模块操作Excel表格的读写（day11/excel_use.py）
 - 下载视频、音乐、图片文件（day11/download.py）
+- csv的基本了解和读写文件（day11/csv_use.py）
 
 ### Team-Learning-Python
 
