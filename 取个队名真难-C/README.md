@@ -69,6 +69,11 @@
 - 下载视频、音乐、图片文件（day11/download.py）
 - csv的基本了解和读写文件（day11/csv_use.py）
 
+### Task12 date: 2018-10-28
+
+- 利用pymysql模块管理mysql的连接和CURD基础使用（day12/mysql_use,py）
+- 掘金沸点内容，各种方式存储练习（day12/poins_save,py）
+
 ### Team-Learning-Python
 
 ![team_img](https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80)
