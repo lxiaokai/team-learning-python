@@ -79,6 +79,14 @@
 - 正则表达式的基本学习和使用（day13/re_use.py）
 - 面向对象编程的使用和练习（day13/oop_use.py）
 
+### Task14 date: 2018-10-30
+
+- 常见的内建模块练习之datetime（day14/datetime_use.py）
+- 常见的内建模块练习之collections（day14/collections_use.py）
+- 常见的内建模块练习之base64、struct（day14/char_use.py）
+- 常见的内建模块练习之hashlib、hmac（day14/encrypt_use.py）
+- 常见的内建模块练习之xml、HTMLParser（day14/html_use.py）
+
 ### Team-Learning-Python
 
 ![team_img](https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80)
