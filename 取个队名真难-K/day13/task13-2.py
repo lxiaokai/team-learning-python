@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 2018/10/16 11:34 AM
+# @Time    : 2018/10/29 2:46 PM
 # @Author  : liangk
-# @Site    : 基础运算
-# @File    : basicOperation.py
+# @Site    : 
+# @File    : task13-2.py
 # @Software: PyCharm
 
 
@@ -38,8 +38,8 @@ if __name__ == '__main__':
     print("****************************")
 
     while True:
-        inputNum = input("\nPlease select a menu:")
-        if int(inputNum) > 0 and int(inputNum) <= 4:
+        inputNum = int(input("\nPlease select a menu:"))
+        if inputNum not in (1, 2, 3, 4):
 
             print("please input num1:")
             number1 = int(input())

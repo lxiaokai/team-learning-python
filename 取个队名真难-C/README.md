@@ -71,8 +71,21 @@
 
 ### Task12 date: 2018-10-28
 
-- 利用pymysql模块管理mysql的连接和CURD基础使用（day12/mysql_use,py）
-- 掘金沸点内容，各种方式存储练习（day12/poins_save,py）
+- 利用pymysql模块管理mysql的连接和CURD基础使用（day12/mysql_use.py）
+- 掘金沸点内容，各种方式存储练习（day12/poins_save.py）
+
+### Task13 date: 2018-10-29
+
+- 正则表达式的基本学习和使用（day13/re_use.py）
+- 面向对象编程的使用和练习（day13/oop_use.py）
+
+### Task14 date: 2018-10-30
+
+- 常见的内建模块练习之datetime（day14/datetime_use.py）
+- 常见的内建模块练习之collections（day14/collections_use.py）
+- 常见的内建模块练习之base64、struct（day14/char_use.py）
+- 常见的内建模块练习之hashlib、hmac（day14/encrypt_use.py）
+- 常见的内建模块练习之xml、HTMLParser（day14/html_use.py）
 
 ### Team-Learning-Python
 
