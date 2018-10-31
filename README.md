@@ -311,4 +311,4 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 1. 练习一：爬取猜你喜欢的所有图片
 2. 练习二（进阶练习）：在练习一的补充下，爬取文章标题以及文章发布时间(其实就是一个练习)
 
-<img src = "https://ws4.sinaimg.cn/large/006tNbRwgy1fwra9dqw4wj309n0ca0uw.jpg " height=110>
+<img src = "https://ws4.sinaimg.cn/large/006tNbRwgy1fwra9dqw4wj309n0ca0uw.jpg">
