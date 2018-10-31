@@ -87,6 +87,11 @@
 - 常见的内建模块练习之hashlib、hmac（day14/encrypt_use.py）
 - 常见的内建模块练习之xml、HTMLParser（day14/html_use.py）
 
+### Task15 date: 2018-10-31
+
+- BeautifulSoup的基础使用（day15/bs_use.py）
+- 利用bs4爬取博客的猜你喜欢内容（day15/get_like.py）
+
 ### Team-Learning-Python
 
 ![team_img](https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80)
