@@ -292,3 +292,23 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
     
 ### 练习
 1. 熟悉练习常用的第三方模块
+
+## Task15 time:2018年10月31日
+
+学习了那么多知识,铺垫了那么久,咋们可以进入爬虫了!!!
+
+<img src = "https://ws3.sinaimg.cn/large/006tNbRwgy1fwra08a6tfj304o04st8j.jpg" height=110>
+
+### 学习目标
+
+1. [BeautifulSoup(靓汤)模块安装和使用](https://cuiqingcai.com/5548.html)
+ 
+2. 日常打卡
+
+#### [官方文档](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
+    
+### 练习
+1. 练习一：爬取(猜你喜欢)的所有图片 --- 这个在上面靓汤的右边,注意!!!!!
+2. 练习二（进阶练习）：在练习一的补充下，爬取文章标题以及文章发布时间(其实就是一个练习)
+
+<img src = "https://ws4.sinaimg.cn/large/006tNbRwgy1fwra9dqw4wj309n0ca0uw.jpg">
