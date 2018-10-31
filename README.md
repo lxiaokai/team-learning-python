@@ -308,7 +308,7 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 #### [官方文档](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
     
 ### 练习
-1. 练习一：爬取猜你喜欢的所有图片
+1. 练习一：爬取(猜你喜欢)的所有图片 --- 这个在上面靓汤的右边,注意!!!!!
 2. 练习二（进阶练习）：在练习一的补充下，爬取文章标题以及文章发布时间(其实就是一个练习)
 
 <img src = "https://ws4.sinaimg.cn/large/006tNbRwgy1fwra9dqw4wj309n0ca0uw.jpg">
