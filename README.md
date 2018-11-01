@@ -312,3 +312,16 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 2. 练习二（进阶练习）：在练习一的补充下，爬取文章标题以及文章发布时间(其实就是一个练习)
 
 <img src = "https://ws4.sinaimg.cn/large/006tNbRwgy1fwra9dqw4wj309n0ca0uw.jpg">
+
+## Task16 time:2018年11月01日-02日
+
+### 学习目标
+
+1. 继续学习和理解BeautifulSoup模块的使用
+
+### 练习
+
+1. 爬取国家统计局2017年区域和城乡划分代码的省市区街道办事处信息
+    - 可以先只爬取其中一个省的信息
+    - 保存格式，可以选择Excel、json、txt等任意格式
+    - 链接直通车：[http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2017/](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2017/)

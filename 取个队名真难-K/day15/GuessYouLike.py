@@ -7,7 +7,6 @@
 # @Software: PyCharm
 
 from bs4 import BeautifulSoup
-from urllib.request import urlopen
 import re
 import os
 import time
@@ -40,7 +39,7 @@ def download_content(i):
 
 
 def getData(url):
-    html = urlopen(url).read().decode('utf-8')
+    html = requests.get(url).content
     soup = BeautifulSoup(html, features='lxml')
     div = soup.find('div', {"class": "widget d_postlist"})
 
