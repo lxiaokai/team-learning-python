@@ -10,6 +10,8 @@ date: 2018-11-01
 import requests
 from bs4 import BeautifulSoup
 from urllib import parse
+import json
+import os
 
 
 class GetCity(object):
@@ -19,19 +21,27 @@ class GetCity(object):
 
     def __init__(self):
         """初始化属性"""
-        pass
+        self.json_folder = 'json'
+        self.province_dict_list = []
+        self.city_dict_list = []
+        self.county_dict_list = []
+        self.town_dict_list = []
+        self.village_dict_list = []
 
     def get_html(self, url):
         """请求html页面信息"""
         header = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
         }
-        request = requests.get(url=url, headers=header)
-        request.encoding = 'gbk'
-        html = request.text
-        return html
+        try:
+            request = requests.get(url=url, headers=header)
+            request.encoding = 'gbk'
+            html = request.text
+            return html
+        except Exception as e:
+            return ''
 
-    def get_city(self, origin_url, now_url):
+    def get_city(self, origin_url, now_url, origin_code):
         """获取市级地址信息"""
         province_url = parse.urljoin(origin_url, now_url)
         # 解析市级的html
@@ -45,11 +55,18 @@ class GetCity(object):
             city_code = a_info[0].get_text()
             city_url = a_info[0].attrs['href']
             print(city_name, city_code, city_url)
+            # 数据存入字典
+            dict_info = {}
+            dict_info.update({'name': city_name})
+            dict_info.update({'code': city_code})
+            dict_info.update({'parent_code': origin_code})
+            dict_info.update({'level': 2})
+            self.city_dict_list.append(dict_info)
             # 获取县区信息
-            self.get_county(province_url, city_url)
+            self.get_county(province_url, city_url, city_code)
         print('市级解析结束！')
 
-    def get_county(self, origin_url, now_url):
+    def get_county(self, origin_url, now_url, origin_code):
         """获取县、区级地址信息"""
         city_url = parse.urljoin(origin_url, now_url)
         # 解析县区的html
@@ -64,8 +81,15 @@ class GetCity(object):
                 county_code = a_info[0].get_text()
                 county_url = a_info[0].attrs['href']
                 print(county_name, county_code, county_url)
+                # 数据存入字典
+                dict_info = {}
+                dict_info.update({'name': county_name})
+                dict_info.update({'code': county_code})
+                dict_info.update({'parent_code': origin_code})
+                dict_info.update({'level': 3})
+                self.county_dict_list.append(dict_info)
                 # 获取乡镇信息
-                self.get_town(city_url, county_url)
+                self.get_town(city_url, county_url, county_code)
             else:
                 td_info = county_info.find_all(name='td')
                 county_name = td_info[1].get_text()
@@ -74,7 +98,7 @@ class GetCity(object):
                 print(county_name, county_code, county_url)
         print('县/区级解析结束！')
 
-    def get_town(self, origin_url, now_url):
+    def get_town(self, origin_url, now_url, origin_code):
         """获取乡镇地址信息"""
         county_url = parse.urljoin(origin_url, now_url)
         # 解析县区的html
@@ -88,11 +112,18 @@ class GetCity(object):
             town_code = a_info[0].get_text()
             town_url = a_info[0].attrs['href']
             print(town_name, town_code, town_url)
+            # 数据存入字典
+            dict_info = {}
+            dict_info.update({'name': town_name})
+            dict_info.update({'code': town_code})
+            dict_info.update({'parent_code': origin_code})
+            dict_info.update({'level': 4})
+            self.town_dict_list.append(dict_info)
             # 获取村级信息
-            self.get_village(county_url, town_url)
+            self.get_village(county_url, town_url, town_code)
         print('乡镇级解析结束！')
 
-    def get_village(self, origin_url, now_url):
+    def get_village(self, origin_url, now_url, origin_code):
         """获取村级地址信息"""
         town_url = parse.urljoin(origin_url, now_url)
         # 解析县区的html
@@ -106,7 +137,35 @@ class GetCity(object):
             village_code = a_info[0].get_text()
             village_url = ''
             print(village_name, village_code, village_url)
+            # 数据存入字典
+            dict_info = {}
+            dict_info.update({'name': village_name})
+            dict_info.update({'code': village_code})
+            dict_info.update({'parent_code': origin_code})
+            dict_info.update({'level': 5})
+            self.village_dict_list.append(dict_info)
         print('村级解析结束！')
+
+    def save_by_json(self):
+        """json格式保存城市地址库信息"""
+        # 目录不存在，先创建
+        if not os.path.exists(self.json_folder):
+            os.mkdir(self.json_folder)
+        # 写省份
+        with open(os.path.join(self.json_folder, 'province.json'), 'w') as file:
+            json.dump(self.province_dict_list, file)
+        # 写城市
+        with open(os.path.join(self.json_folder, 'city.json'), 'w') as file:
+            json.dump(self.city_dict_list, file)
+        # 写区县
+        with open(os.path.join(self.json_folder, 'county.json'), 'w') as file:
+            json.dump(self.county_dict_list, file)
+        # 写乡镇
+        with open(os.path.join(self.json_folder, 'town.json'), 'w') as file:
+            json.dump(self.town_dict_list, file)
+        # 写乡村
+        with open(os.path.join(self.json_folder, 'village.json'), 'w') as file:
+            json.dump(self.village_dict_list, file)
 
     def run(self):
         """执行入口"""
@@ -118,9 +177,19 @@ class GetCity(object):
         for province_info in province_list:
             province_name = province_info.get_text()
             province_url = province_info.attrs['href']
-            print(province_name, province_url)
+            province_code = province_url.split('.')[0]
+            print(province_name, province_code, province_url)
+            # 数据存入字典
+            dict_info = {}
+            dict_info.update({'name': province_name})
+            dict_info.update({'code': province_code})
+            dict_info.update({'parent_code': '0'})
+            dict_info.update({'level': '1'})
+            self.province_dict_list.append(dict_info)
             # 爬取市级信息
-            self.get_city(self.url, province_url)
+            self.get_city(self.url, province_url, province_code)
+        # json串写入
+        self.save_by_json()
         print('省份解析结束！')
 
 
