@@ -92,6 +92,10 @@
 - BeautifulSoup的基础使用（day15/bs_use.py）
 - 利用bs4爬取博客的猜你喜欢内容（day15/get_like.py）
 
+### Task16 date: 2018-11-01
+
+- 利用BeautifulSoup爬取省、市、区、街道、办事处五级地址（day15/get_city.py）
+
 ### Team-Learning-Python
 
 ![team_img](https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80)
