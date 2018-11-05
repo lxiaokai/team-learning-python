@@ -96,6 +96,10 @@
 
 - 利用BeautifulSoup爬取省、市、区、街道、办事处五级地址（day15/get_city.py）
 
+### Task17 date: 2018-11-05
+
+- 利用bs4爬取国家地理中文网-杂志阅读信息（day17/ngchina.py）
+
 ### Team-Learning-Python
 
 ![team_img](https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80)
