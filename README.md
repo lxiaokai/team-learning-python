@@ -325,3 +325,26 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
     - 可以先只爬取其中一个省的信息
     - 保存格式，可以选择Excel、json、txt等任意格式
     - 链接直通车：[http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2017/](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2017/)
+    
+
+## Task17 time:2018年11月05日
+
+### 学习目标
+
+1. [BeautifulSoup的理解和使用](https://cuiqingcai.com/5548.html)    [官网](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
+2. [进程和线程的理解和使用](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/0014319272686365ec7ceaeca33428c914edf8f70cca383000)
+
+### 练习
+
+
+1. 爬取[国家地理杂志](http://www.ngchina.com.cn/magazine/)的首页信息
+    - 爬取首页数据列表的图片和图片上面的文字
+    - 然后再跳转到 "更多内容" 爬取里面的数据
+    - 自己决定存储方式
+2. 学习进程和线程(要求理解)
+3. 优先爬虫!!
+    
+#### 备注 :红框内容是爬取内容
+
+<img src="https://ws1.sinaimg.cn/large/006tNbRwgy1fwx0nrp375j314w0xqx6p.jpg" height=250> <img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fwx134k51sj314m0yu1kx.jpg" height=250>
+
