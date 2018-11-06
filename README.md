@@ -348,3 +348,21 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 
 <img src="https://ws1.sinaimg.cn/large/006tNbRwgy1fwx0nrp375j314w0xqx6p.jpg" height=250> <img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fwx134k51sj314m0yu1kx.jpg" height=250>
 
+## Task17 time:2018年11月06日
+
+【战胜拖延症，组团学 Python】第八课：
+
+0. 昨天尝试抓取掘金的关注用户，我已经做到了。so~
+1. 阅读掘金小册[《基于 Python 实现微信公众号爬虫》](https://juejin.im/book/5a157c155188254a701eb3c1/section/5a27814f6fb9a0451463e9fc#heading-0)试读部分
+2.抓取掘金任一账号的所有关注者 昵称和ID 并保存为 json 文件
+
+回复代码截图即可成功打卡，海绵会从打卡的人中抽5位送出《基于 Python 实现微信公众号爬虫》各一本。
+
+### 学习目标
+
+1. 掘金重新恢复打卡，记得打卡 → [https://juejin.im/pin/5be113e56fb9a04cc73b900d](https://juejin.im/pin/5be113e56fb9a04cc73b900d)
+2. 之前落下的学习任务，找时间补补
+
+### 练习
+
+1. 补前面落下的就行
