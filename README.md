@@ -354,7 +354,7 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 
 0. 昨天尝试抓取掘金的关注用户，我已经做到了。so~
 1. 阅读掘金小册[《基于 Python 实现微信公众号爬虫》](https://juejin.im/book/5a157c155188254a701eb3c1/section/5a27814f6fb9a0451463e9fc#heading-0)试读部分
-2.抓取掘金任一账号的所有关注者 昵称和ID 并保存为 json 文件
+2. 抓取掘金任一账号的所有关注者 昵称和ID 并保存为 json 文件
 
 回复代码截图即可成功打卡，海绵会从打卡的人中抽5位送出《基于 Python 实现微信公众号爬虫》各一本。
 
