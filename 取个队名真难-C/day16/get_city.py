@@ -12,6 +12,7 @@ from bs4 import BeautifulSoup
 from urllib import parse
 import json
 import os
+from datetime import datetime
 
 
 class GetCity(object):
@@ -22,11 +23,8 @@ class GetCity(object):
     def __init__(self):
         """初始化属性"""
         self.json_folder = 'json'
-        self.province_dict_list = []
-        self.city_dict_list = []
-        self.county_dict_list = []
-        self.town_dict_list = []
-        self.village_dict_list = []
+        self.json_file = {'province': 'province.json', 'city': 'city.json', 'county': 'county.json',
+                          'town': 'town.json', 'village': 'village.json'}
 
     def get_html(self, url):
         """请求html页面信息"""
@@ -61,7 +59,8 @@ class GetCity(object):
             dict_info.update({'code': city_code})
             dict_info.update({'parent_code': origin_code})
             dict_info.update({'level': 2})
-            self.city_dict_list.append(dict_info)
+            # 读写json数据
+            self.read_write_by_json(dict_info, 'city')
             # 获取县区信息
             self.get_county(province_url, city_url, city_code)
         print('市级解析结束！')
@@ -87,7 +86,8 @@ class GetCity(object):
                 dict_info.update({'code': county_code})
                 dict_info.update({'parent_code': origin_code})
                 dict_info.update({'level': 3})
-                self.county_dict_list.append(dict_info)
+                # 读写json数据
+                self.read_write_by_json(dict_info, 'county')
                 # 获取乡镇信息
                 self.get_town(city_url, county_url, county_code)
             else:
@@ -118,7 +118,8 @@ class GetCity(object):
             dict_info.update({'code': town_code})
             dict_info.update({'parent_code': origin_code})
             dict_info.update({'level': 4})
-            self.town_dict_list.append(dict_info)
+            # 读写json数据
+            self.read_write_by_json(dict_info, 'town')
             # 获取村级信息
             self.get_village(county_url, town_url, town_code)
         print('乡镇级解析结束！')
@@ -143,32 +144,39 @@ class GetCity(object):
             dict_info.update({'code': village_code})
             dict_info.update({'parent_code': origin_code})
             dict_info.update({'level': 5})
-            self.village_dict_list.append(dict_info)
+            # 读写json数据
+            self.read_write_by_json(dict_info, 'village')
         print('村级解析结束！')
 
-    def save_by_json(self):
-        """json格式保存城市地址库信息"""
+    def init_file(self):
+        """初始化文件夹数据"""
         # 目录不存在，先创建
         if not os.path.exists(self.json_folder):
             os.mkdir(self.json_folder)
-        # 写省份
-        with open(os.path.join(self.json_folder, 'province.json'), 'w') as file:
-            json.dump(self.province_dict_list, file)
-        # 写城市
-        with open(os.path.join(self.json_folder, 'city.json'), 'w') as file:
-            json.dump(self.city_dict_list, file)
-        # 写区县
-        with open(os.path.join(self.json_folder, 'county.json'), 'w') as file:
-            json.dump(self.county_dict_list, file)
-        # 写乡镇
-        with open(os.path.join(self.json_folder, 'town.json'), 'w') as file:
-            json.dump(self.town_dict_list, file)
-        # 写乡村
-        with open(os.path.join(self.json_folder, 'village.json'), 'w') as file:
-            json.dump(self.village_dict_list, file)
+        # 文件不存在，也先初始化
+        for file_name in self.json_file.values():
+            # 初始化空列表写入
+            file_path = os.path.join(self.json_folder, file_name)
+            if not os.path.exists(file_path):
+                with open(file_path, 'w', encoding='utf-8') as file:
+                    json.dump([], file)
+
+    def read_write_by_json(self, data, city_type):
+        """读写json文件"""
+        file_name = self.json_file[city_type]
+        file_path = os.path.join(self.json_folder, file_name)
+        # 读文件
+        with open(file_path, 'r', encoding='utf-8') as read_file:
+            data_list = json.load(read_file)
+            data_list.append(data)
+            # 写文件
+            with open(file_path, 'w', encoding='utf-8') as write_file:
+                json.dump(data_list, write_file, ensure_ascii=False)
 
     def run(self):
         """执行入口"""
+        # 初始化存储文件
+        self.init_file()
         # 解析省份的html
         print('开始解析省份信息……')
         html = self.get_html(self.url)
@@ -185,11 +193,10 @@ class GetCity(object):
             dict_info.update({'code': province_code})
             dict_info.update({'parent_code': '0'})
             dict_info.update({'level': '1'})
-            self.province_dict_list.append(dict_info)
+            # 读写json数据
+            self.read_write_by_json(dict_info, 'province')
             # 爬取市级信息
             self.get_city(self.url, province_url, province_code)
-        # json串写入
-        self.save_by_json()
         print('省份解析结束！')
 
 
@@ -197,6 +204,9 @@ class GetCity(object):
 if __name__ == '__main__':
     # 实例化执行
     print('开始执行……')
+    start_time = datetime.now()
     city = GetCity()
     city.run()
+    end_time = datetime.now()
     print('程序执行结束！')
+    print('开始时间：%s，结束时间：%s' % (start_time.strftime('%Y-%m-%d %H:%M:%S'), end_time.strftime('%Y-%m-%d %H:%M:%S')))
