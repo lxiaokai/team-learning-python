@@ -348,7 +348,7 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 
 <img src="https://ws1.sinaimg.cn/large/006tNbRwgy1fwx0nrp375j314w0xqx6p.jpg" height=250> <img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fwx134k51sj314m0yu1kx.jpg" height=250>
 
-## Task17 time:2018年11月06日
+## Task18 time:2018年11月06日
 
 【战胜拖延症，组团学 Python】第八课：
 
@@ -367,7 +367,7 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 
 1. 补前面落下的就行
 
-## Task18 time:2018年11月07日
+## Task19 time:2018年11月07日
 
 【战胜拖延症，组团学 Python】
 
