@@ -348,7 +348,7 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 
 <img src="https://ws1.sinaimg.cn/large/006tNbRwgy1fwx0nrp375j314w0xqx6p.jpg" height=250> <img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fwx134k51sj314m0yu1kx.jpg" height=250>
 
-## Task17 time:2018年11月06日
+## Task18 time:2018年11月06日
 
 【战胜拖延症，组团学 Python】第八课：
 
@@ -366,3 +366,19 @@ https://juejin.im/pin/5bc945ddf265da6aedfc9161
 ### 练习
 
 1. 补前面落下的就行
+
+## Task19 time:2018年11月07日
+
+【战胜拖延症，组团学 Python】
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+### 学习目标
+
+1. 掘金重新恢复打卡(后续补上)
+2. 熟悉了解Scrapy  [中文翻译版](https://scrapy-chs.readthedocs.io/zh_CN/1.0/index.html),    [英文版](https://doc.scrapy.org/en/stable/index.html)这个需要大家花时间去学习
+
+### 练习
+
+1. 补前面落下的
+2. 可以的话,使用Scrapy来做些例子
+

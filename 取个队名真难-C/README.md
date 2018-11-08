@@ -100,6 +100,13 @@
 
 - 利用bs4爬取国家地理中文网-杂志阅读信息（day17/ngchina.py）
 
+### Task18 date: 2018-11-06
+
+- 利用requests抓取掘金用户的关注者（day18/follower_user.py）
+- 利用requests抓取掘金用户的关注者-两级（day18/follower_user_to_next.py）
+- 利用requests抓取掘金用户的关注者-无限抓取（day18/follower_user_to_more.py）
+- 抓取王者荣耀皮肤（day18/wzry.py）
+
 ### Team-Learning-Python
 
 ![team_img](https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80)
