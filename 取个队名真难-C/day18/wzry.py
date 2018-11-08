@@ -37,10 +37,10 @@ class Skin(object):
         for skin_info in skip_list:
             img_names = skin_info.attrs['data-imgname']
             name_list = img_names.split('|')
-            skin_no = len(name_list)
+            skin_no = 1
             for skin_name in name_list:
                 self.skin_detail_url = '%s/%s-bigskin-%s.jpg' % (hero_no, hero_no, skin_no)
-                skin_no -= 1
+                skin_no += 1
                 img_name = hero_name + '-' + skin_name + '.jpg'
                 self.download_skin(img_name)
 
