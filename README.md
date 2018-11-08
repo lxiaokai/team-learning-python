@@ -382,3 +382,20 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXX
 1. 补前面落下的
 2. 可以的话,使用Scrapy来做些例子
 
+
+## Task20 time:2018年11月08日
+
+【战胜拖延症，组团学 Python】
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+### 学习目标
+
+1. 了解Selenium，及其基本语法和用法，可以参考下面的教程，更多的可以自己Google
+    - [官方教程中文版](https://selenium-python-zh.readthedocs.io/en/latest/index.html)
+    - [静觅博客的Selenium的用法教程](https://cuiqingcai.com/2599.html)
+2. 掘金日常打卡
+
+### 练习
+
+1. 尽量把各个用法和知识点都练习一遍，加深印象
