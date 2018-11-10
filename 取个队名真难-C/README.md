@@ -107,6 +107,18 @@
 - 利用requests抓取掘金用户的关注者-无限抓取（day18/follower_user_to_more.py）
 - 抓取王者荣耀皮肤（day18/wzry.py）
 
+### Task19 date: 2018-11-07
+
+- scrapy框架初探（day19/scrapy_test）
+
+### Task20 date: 2018-11-08
+
+- selenium模拟浏览器执行的基础用法（day20/selenium_use.py）
+
+### Task21 date: 2018-11-09
+
+- splinter模拟浏览器执行的基础用法（day21/splinter_use.py）
+
 ### Team-Learning-Python
 
 ![team_img](https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80)
