@@ -418,3 +418,26 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXX
     - 下载图片，其他文本信息的存储格式自己定
     - 有分页的，需要分页爬取
 3. 在完成练习2的前提下，尝试用splinter替换selenium再实现同样的爬淘宝商品的练习
+
+## Task22 time:2018年11月12日
+
+### 学习目标
+
+【战胜拖延症，组团学 Python】第十课：前几天有人在群里咨询掘金前端分类有多...#掘金沸点#
+https://juejin.im/pin/5be93f8d6fb9a0567836c199
+
+1. 继续上次的学习,这两天放松下
+2. 打卡,打完之后该干啥就干啥
+
+
+### 备注: 活动最后一次打卡!
+咋们的活动到此结束了,但是我们的爬虫之旅才刚刚开始.
+
+以后会有继续学习目标,但是可以不用上传代码和打卡了.你们开心就好.
+
+终于没人来烦你们了!!!
+
+<img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fx5ensl8b1g306o06onhz.gif">
+
+See You Next Time~
+
