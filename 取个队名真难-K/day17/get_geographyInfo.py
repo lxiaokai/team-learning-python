@@ -9,7 +9,7 @@
 import requests
 from bs4 import BeautifulSoup
 import datetime
-from download_img import Download_image
+from .download_img import Download_image
 import json
 
 
