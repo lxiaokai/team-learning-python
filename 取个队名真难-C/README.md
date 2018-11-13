@@ -118,6 +118,7 @@
 ### Task21 date: 2018-11-09
 
 - splinter模拟浏览器执行的基础用法（day21/splinter_use.py）
+- selenium模拟浏览器抓取淘宝商品信息（day21/get_taobao_goods.py）
 
 ### Team-Learning-Python
 
