@@ -441,3 +441,20 @@ https://juejin.im/pin/5be93f8d6fb9a0567836c199
 
 See You Next Time~
 
+
+## Task22 time:2018年11月14日
+<img src="https://ws3.sinaimg.cn/large/006tNbRwgy1fx7dn6zq8dj30730730sr.jpg">
+### 学习目标
+
+1. Matplotlib常用绘图熟悉使用
+2. [官网地址](https://matplotlib.org/index.html)
+3. [参考资料](https://ws1.sinaimg.cn/large/006tNbRwgy1fx7e1sfjmrj30bd0bbq5b.jpg)
+
+
+
+### 练习
+
+1.熟悉matplotlib的基本使用
+
+2.绘制: [折线图](https://baike.baidu.com/item/%E6%8A%98%E7%BA%BF%E5%9B%BE/10816540?fr=aladdin),  	[散点图](https://baike.baidu.com/item/%E6%95%A3%E7%82%B9%E5%9B%BE),	[柱状图](https://baike.baidu.com/item/%E6%9F%B1%E7%8A%B6%E5%9B%BE),	[饼图](https://baike.baidu.com/item/%E9%A5%BC%E5%9B%BE),	[直方图](https://baike.baidu.com/item/%E7%9B%B4%E6%96%B9%E5%9B%BE/1103834),	[子图](https://baike.baidu.com/item/%E5%AD%90%E5%9B%BE),	自定义x轴y轴等~
+
