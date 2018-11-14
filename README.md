@@ -444,7 +444,8 @@ See You Next Time~
 
 ## Task22 time:2018年11月14日
 <img src="https://ws3.sinaimg.cn/large/006tNbRwgy1fx7dn6zq8dj30730730sr.jpg">
-### 简介:
+
+###  简介:
 Matplotlib是一个Python 2D绘图库，它可以在各种平台上以各种硬拷贝格式和交互式环境生成出具有出版品质的图形。 Matplotlib可用于Python脚本，Python和IPython shell，Jupyter笔记本，Web应用程序服务器和四个图形用户界面工具包
 
 Matplotlib试图让简单的事情变得更简单，让无法实现的事情变得可能实现。 只需几行代码即可生成绘图，直方图，功率谱，条形图，错误图，散点图等。
