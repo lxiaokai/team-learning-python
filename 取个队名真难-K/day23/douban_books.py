@@ -47,27 +47,26 @@ if __name__ == '__main__':
 
     for sub in article_type_list:
         for sub1 in sub:
-            # for i in article_type_list[0]:
-            # for start in range(0, 1):
-            # (start * 20) 分页是0 20  40 这样的
-            # type=S是按评价排序
-            url = base_url + sub1 + '?start=%s' % 0 + '&type=S'
             title = '==============' + sub1 + '=============='
             print(title)
-            print(url)
-            with open('book.text', 'a') as f:
-                f.write('\n' + title + '\n')
-                f.write(url + '\n')
-            html = get_html(url)
-            soup = BeautifulSoup(html, 'lxml')
-            li = soup.find_all(class_='subject-item')
-            for div in li:
-                info = div.find(class_='info').find('a')
-                img = div.find(class_='pic').find('img')
-                content = '书名:<%s>' % info['title'] + '  书名图片:' + img['src'] + '\n'
-                print(content)
+            print(base_url + sub1 + '?start=0' + '&type=S')
+            for start in range(0, 2):
+            # (start * 20) 分页是0 20  40 这样的
+            # type=S是按评价排序
+                url = base_url + sub1 + '?start=%s' % (start * 20) + '&type=S'
                 with open('book.text', 'a') as f:
-                    f.write(content)
+                    f.write('\n' + title + '\n')
+                    f.write(url + '\n')
+                html = get_html(url)
+                soup = BeautifulSoup(html, 'lxml')
+                li = soup.find_all(class_='subject-item')
+                for div in li:
+                    info = div.find(class_='info').find('a')
+                    img = div.find(class_='pic').find('img')
+                    content = '书名:<%s>' % info['title'] + '  书名图片:' + img['src'] + '\n'
+                    print(content)
+                    with open('book.text', 'a') as f:
+                        f.write(content)
 
     end_time = datetime.datetime.now()
     print('耗时: ', (end_time - start_time).seconds)
